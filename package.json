@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "superagent": "^3.3.2"
+  }
+}
