@@ -1,0 +1,14 @@
+{
+  "name": "calendar",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::790326010231:role/calendar_lambda_function",
+  "handler": "main.handler",
+  "hooks": {
+    "build": "../../node_modules/.bin/browserify --node -s handler -o main.js index.js",
+    "clean": "rm -f main.js"
+  },
+  "environment": {}
+}
+

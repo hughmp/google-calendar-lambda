@@ -1,6 +1,14 @@
 const request = require('superagent');
 
-const { baseUrl, calendarIds, resource, apiKey } = require('./config.js');
+/* destructuring not implemented in node 4.3
+ const { baseUrl, calendarIds, resource, apiKey } = require('./config.js');
+*/
+
+const _require = require('./config.js'),
+    baseUrl = _require.baseUrl,
+    calendarIds = _require.calendarIds,
+    resource = _require.resource,
+    apiKey = _require.apiKey;
 
 module.exports = () => (
   Promise.all(

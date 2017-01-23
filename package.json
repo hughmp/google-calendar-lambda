@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "browserify": "^13.3.0",
     "superagent": "^3.3.2"
-  }
+  },
+  "name": "google-calendar-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughmp/google-calendar-lambda.git"
+  },
+  "author": "hughmp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hughmp/google-calendar-lambda/issues"
+  },
+  "homepage": "https://github.com/hughmp/google-calendar-lambda#readme",
+  "description": ""
 }
