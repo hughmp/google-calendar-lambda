@@ -8,13 +8,13 @@ An `AWS` (Amazon Web Services) `Lambda` function for getting events booked into 
 
 Clone this repo  
 
-`git clone https://github.com/hughmp/google-calendar-lambda.git`  
+  `git clone https://github.com/hughmp/google-calendar-lambda.git`  
   
-`cd google-calendar-lambda`  
+  `cd google-calendar-lambda`  
 
 Install the dependencies  
 
-`yarn` or `npm i`  
+  `yarn` or `npm i`  
 
 Install apex and configure AWS, as explained [here](http://apex.run/)  
 
