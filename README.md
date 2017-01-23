@@ -1,4 +1,10 @@
-### How to use  
+# google-calendar-lambda
+
+## About  
+
+An `AWS` (Amazon Web Services) `Lambda` function for getting events booked into your `Google` calendar.
+  
+## How to use  
 
 Clone this repo  
 
@@ -10,7 +16,7 @@ Install the dependencies
 
 `yarn` or `npm i`  
 
-Install apex and configure aws explained [here](http://apex.run/)  
+Install apex and configure AWS, as explained [here](http://apex.run/)  
 
 Export your aws profile `export AWS_PROFILE=XXXXX` (in Windows use `set`)  
 
